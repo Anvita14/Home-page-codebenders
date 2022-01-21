@@ -76,10 +76,12 @@ body{
 }
 .datawords{
   white-space: nowrap;
-    overflow: hidden;
+/*     overflow: hidden;
 /*     text-overflow: ellipsis; */
     white-space: nowrap;
-  word-wrap:break-word;
+  word-wrap:break-word; */
+  overflow-wrap: break-word;
+}
 }
 
 @keyframes blink {
