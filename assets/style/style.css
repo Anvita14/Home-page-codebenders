@@ -240,4 +240,15 @@ Hover effect in footer Social Icon
         margin:0 auto;
         transform: translateY(25%);
      }
+        
+        
    }
+
+@media only screen and (max-device-width: 480px) {
+    /* STYLES HERE for DEVICES with physical max-screen width of 480px */
+    .rounded-social-buttons .fa-twitter, .fa-facebook-f, .fa-linkedin, .fa-github {
+  width:3rem;
+   height:3rem;     
+}
+    
+}
