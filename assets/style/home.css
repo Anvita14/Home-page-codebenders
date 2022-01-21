@@ -63,6 +63,7 @@ body{
 
 .animated-text span.active {
   display: inline;
+  overflow-wrap: break-word; 
 }
 
 .animated-text:after {
@@ -71,15 +72,16 @@ body{
   width: 6px;
   text-indent: 0;
   /* overflow: hidden; */
+  overflow-wrap: break-word; 
   background: var(--col-icon);
   animation: blink 0.3s infinite alternate;
 }
 .datawords{
   white-space: nowrap;
-/*     overflow: hidden;
+/*  overflow: hidden; */
 /*     text-overflow: ellipsis; */
-    white-space: nowrap;
-  word-wrap:break-word; */
+/*     white-space: nowrap; */
+/*   word-wrap:break-word; */ 
   overflow-wrap: break-word;
 }
 }
