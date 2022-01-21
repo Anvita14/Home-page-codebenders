@@ -77,8 +77,9 @@ body{
 .datawords{
   white-space: nowrap;
     overflow: hidden;
-    text-overflow: ellipsis;
+/*     text-overflow: ellipsis; */
     white-space: nowrap;
+  word-wrap:break-word;
 }
 
 @keyframes blink {
