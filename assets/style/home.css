@@ -166,19 +166,19 @@ body{
   z-index: 1;
   transition: var(--trans-props);
 }
-.github i {
+/* .github i {
   margin: auto;
   font-size: 24px;
   z-index: 1;
   transition: var(--trans-props);
-}
+} */
 .socialicon.twitter{
   color: var(--col-icon-twitter);
 }
 
-.socialicon.github{
+/* .socialicon.github{
   color:var(--col-icon-github);
-} 
+}  */
 
 .socialicon.linkedin{
   color: var(--col-icon-linkedin);
@@ -211,11 +211,11 @@ body{
   box-shadow: var(--twitter);
 }
 
-.socialicon.github:after {
+/* .socialicon.github:after {
   background-color: #1f2122;
   box-shadow: var(--github);
 } 
-
+ */
 
 .socialicon.linkedin:after {
   background-color: #0e76a8;
